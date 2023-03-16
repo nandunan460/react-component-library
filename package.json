@@ -1,0 +1,33 @@
+{
+  "name": "@nandunan460/react-component-library",
+  "version": "0.1.0",
+  "description": "A simple template for a custom React component library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Nandini",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^17.0.34",
+    "postcss": "^8.4.21",
+    "react": "^17.0.2",
+    "rollup": "^2.60.0",
+    "rollup-plugin-dts": "^4.0.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.5.0",
+    "typescript": "^4.4.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/nandunan460"
+  },
+  "dependencies": {}
+}
